@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-#include <chrono>
 #include "graphics.h"
 #pragma comment(lib,"graphics.lib")
 
@@ -26,7 +25,7 @@ int main(){
 	outtextxy(465, 45, (char*)"Click as many circles within the time limit as possible");
 	outtextxy(550, 75, (char*)"Timer starts on the first click");
 
-	
+	//Initializing variables
 	int MouseX, MouseY;
 	int combo = 0;
 	bool MouseDown = 0;
