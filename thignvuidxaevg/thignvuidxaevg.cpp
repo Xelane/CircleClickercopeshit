@@ -86,7 +86,7 @@ int main(){
 				}
 			}
 			//Fail check
-			else if (MouseDist > 50) {
+			else if (MouseDist > 50 && FirstClick == 0) {
 				
 				outtextxy(545, 650, (char*)"You clicked outside the circle");
 				break;
