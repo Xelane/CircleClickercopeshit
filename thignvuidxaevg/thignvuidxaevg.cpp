@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
 	// Initializing window
 	initwindow(1280, 720);
 
@@ -120,7 +120,7 @@ int main(){
 			fail = 0;
 		}
 	}
-	getch();								
+	getch();
 	closegraph();
 	return 0;
-}						
+}
